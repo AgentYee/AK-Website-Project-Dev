@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AK_Website_Project.Models.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,7 +12,7 @@ namespace AK_Website_Project.Controllers.Home
         // GET: Home
         public ActionResult Index()
         {
-
+            HomeViewModel HomeViewM = new HomeViewModel();
             return View();
         }
     }
